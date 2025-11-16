@@ -1,1 +1,1 @@
-AutoHotKey Macro for farming Inazuma Eleven: Victory Road private match stars
+AutoHotKey Macro to farm gacha stars in Inazuma Eleven: Victory Road private matchs

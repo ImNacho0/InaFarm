@@ -108,4 +108,6 @@ Return
 UpdateGameCounter:
     GuiControl, MacroGameCounter:, GameCountText, Partidos: %games%
     GuiControl, MacroGameCounter:, TriesCountText, Intentos: %tries%
+    GuiControl, MacroGameCounter:+c00AA00, ToggleText
+    GuiControl, MacroGameCounter:, ToggleText, Activado
 Return

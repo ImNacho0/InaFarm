@@ -20,7 +20,7 @@ Return
 CreateGUI:
     Gui, MacroGameCounter:New, +AlwaysOnTop +ToolWindow +Caption -MaximizeBox -MinimizeBox  
     Gui, Font, s12 Bold, Verdana
-    Gui, MacroGameCounter:Add, Text, vGameCountText x0 y0 w150 h40 Center, Partidos Jugadas: 0
+    Gui, MacroGameCounter:Add, Text, vGameCountText x0 y0 w150 h40 Center, Partidos: 0
     Gui, MacroGameCounter:Add, Text, vTriesCountText x0 y40 w150 h40 Center, Intentos: 0
     Gui, MacroGameCounter:Add, Text, vToggleText x0 y60 w150 h40 Center +cFF0000, Desactivado
     Gui, MacroGameCounter:Show, x0 y0 w150 h80, InaFarm (@ImNacho)
@@ -105,7 +105,7 @@ Else If time contains 2:00
 Return
 
 UpdateGameCounter:
-    GuiControl, MacroGameCounter:, GameCountText, Partidos Jugadas: %games%
+    GuiControl, MacroGameCounter:, GameCountText, Partidos: %games%
     GuiControl, MacroGameCounter:, TriesCountText, Intentos: %tries%
     GuiControl, MacroGameCounter:+c00AA00, ToggleText
     GuiControl, MacroGameCounter:, ToggleText, Activado
